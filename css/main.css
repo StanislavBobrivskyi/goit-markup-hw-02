@@ -24,6 +24,7 @@ body {
 .accent {
   color: var(--accent-color);
 }
+
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
@@ -33,17 +34,22 @@ body {
   line-height: 1.33;
   text-decoration: none;
 }
+
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
+
 .list {
   list-style: none;
 }
+
 /* site-nav */
+
 .nav {
   text-decoration: none;
 }
+
 .site-nav .link {
   color: var(--primary-text-color);
 
@@ -52,10 +58,12 @@ body {
   line-height: 1.5;
   text-decoration: none;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .contact .link {
   color: var(--title-text-color);
 
@@ -63,6 +71,7 @@ body {
   line-height: 1.5;
   text-decoration: none;
 }
+
 .contact .link:hover,
 .contact .link:focus {
   color: var(--accent-color);
@@ -73,6 +82,7 @@ body {
 .hero {
   background-color: var(--background-color);
 }
+
 .hero-title {
   color: var(--primary-white-color);
 
@@ -81,6 +91,7 @@ body {
   line-height: 1.08;
   text-align: center;
 }
+
 .hero-btn {
   cursor: pointer;
   color: var(--primary-white-color);
@@ -91,9 +102,11 @@ body {
   line-height: 1.5;
   align-items: center;
 }
+
 /*section*/
 
 /*features*/
+
 .section .title,
 .team .title {
   color: var(--primary-text-color);
@@ -105,6 +118,7 @@ body {
 /*exemples*/
 
 /*team*/
+
 .section-title {
   color: var(--primary-text-color);
 
@@ -113,14 +127,17 @@ body {
   line-height: 1.1;
   text-align: center;
 }
+
 .team-section {
   background-color: #f4f4fd;
 }
 
 /*footer*/
+
 .footer {
   background-color: var(--background-color);
 }
+
 .footer-logo {
   color: var(--additional-color);
 
@@ -132,14 +149,18 @@ body {
 
   text-decoration: none;
 }
+
 .footer-logo:hover,
 .footer-logo:focus {
   color: var(--accent-color);
 }
+
 .description {
   color: var(--additional-color);
 }
+
 /*portfolio*/
+
 .filtr-btn .link:hover,
 .filtr-btn .link:focus {
   color: var(--accent-color);
@@ -153,13 +174,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .portfolio .title {
   color: var(--primary-text-color);
 }
+
 .portfolio .link:hover,
 .portfolio .link:focus {
   color: var(--accent-color);
 }
+
 .filtr-btn .btn {
   cursor: pointer;
 }
