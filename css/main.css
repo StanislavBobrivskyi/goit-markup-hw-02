@@ -99,7 +99,13 @@ text-transform: uppercase;
   text-transform: capitalize;
 }
 
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color:var(--filtr-btn-color);
+}
+
 .hero-btn {
+    
   cursor: pointer;
   color: var(--primary-white-color);
   background-color: #4d5ae5;
